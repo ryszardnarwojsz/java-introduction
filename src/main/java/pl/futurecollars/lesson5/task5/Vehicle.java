@@ -1,4 +1,4 @@
-package pl.futurecollars.leson5.task5;
+package pl.futurecollars.lesson5.task5;
 
 public class Vehicle {
 
