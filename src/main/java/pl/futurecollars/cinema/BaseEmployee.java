@@ -2,7 +2,7 @@ package pl.futurecollars.cinema;
 
 import java.math.BigDecimal;
 
-public abstract class BaseEmployee {
+public class BaseEmployee {
 
     public BaseEmployee() {
     }
@@ -10,7 +10,9 @@ public abstract class BaseEmployee {
     public BaseEmployee(final int employeeYear) {
     }
 
-    public abstract BigDecimal calculateMonthlySalary();
+    public BigDecimal calculateMonthlySalary(){
+        return BigDecimal.ZERO;
+    }
 
     public BigDecimal getBaseSalary() {
         return  BigDecimal.ZERO;
